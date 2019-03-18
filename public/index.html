@@ -3,88 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <title>Bienes Raices</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="site-header inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html"><img src="img/logo.svg" alt="Bienes Raíces"></a>
 
-    <nav>
-        <ul>
-            <li>Logo</li>
-            <li>Nosotros</li>
-            <li>Anuncios</li>
-            <li>Blog</li>
-            <li>Contactos</li>
-        </ul>
-    </nav>
+                <nav class="navegacion">
+                    <a href="views/nosotros.html">Nosotros</a>
+                    <a href="views/anuncios.html">Anuncios</a>
+                    <a href="views/blog.html">Blog</a>
+                    <a href="views/contacto.html">Contacto</a>
+                </nav>
+            </div>
 
-    <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
-
-    <section>
-        <h3>Mas sobre Nosotros</h3>
-        <div>
-            <h5>SEGURIDAD</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam animi consequatur, deleniti ea eos esse et fugiat hic id ipsum non officia quidem quos rerum similique, sint velit voluptates?</p>
+            <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
         </div>
-        <div>
-            <h5>EL MEJOR PRECIO</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet cupiditate deleniti dicta doloribus earum eius eligendi et eveniet harum ipsam iusto quasi quia reprehenderit similique tempora totam, velit, veniam?</p>
-        </div>
-        <div>
-            <h5>A TIEMPO</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem debitis exercitationem facilis quia repudiandae, sunt voluptas. Adipisci delectus dolorum minus soluta. Architecto dolor excepturi facilis hic nihil? Culpa, illo.</p>
+    </header>
+
+    <section class="contenedor">
+        <h2 class="fw-300 centrar-texto">Mas sobre Nosotros</h2>
+
+        <div class="iconos-nosotros">
+            <div class="icono">
+                <img src="img/icono1.svg" alt="icono seguridad">
+                <h3>Seguridad</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam animi consequatur, deleniti ea eos esse et fugiat hic id ipsum non officia quidem quos rerum similique, sint velit voluptates?</p>
+            </div>
+            <div class="icono">
+                <img src="img/icono2.svg" alt="icono mejor precio">
+                <h3>El mejor precio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet cupiditate deleniti dicta doloribus earum eius eligendi et eveniet harum ipsam iusto quasi quia reprehenderit similique tempora totam, velit, veniam?</p>
+            </div>
+            <div class="icono">
+                <img src="img/icono3.svg" alt="icono a tiempo">
+                <h3>A tiempo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem debitis exercitationem facilis quia repudiandae, sunt voluptas. Adipisci delectus dolorum minus soluta. Architecto dolor excepturi facilis hic nihil? Culpa, illo.</p>
+            </div>
         </div>
     </section>
 
-    <section>
-        <h3>Casas y Depas en Venta</h3>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section>
+    <main class="seccion contenedor">
+        <h2 class="centrar-texto fw-300">Casas y Depas en Venta</h2>
+
+        <div class="contenedor-anuncios">
+            <div class="anuncio">
+                <img src="img/anuncio1.jpg" alt="casa lago">
+                <div class="contenido-anuncio">
+                    <h3>Casa de Lujo en el Lago</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa, debitis deleniti dignissimos eligendi enim expedita facilis fugiat quos repellendus rerum, sequi unde velit voluptas voluptate. Aperiam ea laudantium odio.</p>
+                    <p class="precio">$3'000.000</p>
+                    <a href="#" class="boton boton-amarillo d-block">ver propiedad</a>
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="img/anuncio2.jpg" alt="terminados lujo">
+                <div class="contenido-anuncio">
+                    <h3>Casa Terminados de Lujo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa, debitis deleniti dignissimos eligendi enim expedita facilis fugiat quos repellendus rerum, sequi unde velit voluptas voluptate. Aperiam ea laudantium odio.</p>
+                    <p class="precio">$2'000.000</p>
+                    <a href="#" class="boton boton-amarillo d-block">ver propiedad</a>
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="img/anuncio3.jpg" alt="casa alberca">
+                <div class="contenido-anuncio">
+                    <h3>Casa con Alberca</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa, debitis deleniti dignissimos eligendi enim expedita facilis fugiat quos repellendus rerum, sequi unde velit voluptas voluptate. Aperiam ea laudantium odio.</p>
+                    <p class="precio">$3'000.000</p>
+                    <a href="#" class="boton boton-amarillo d-block">ver propiedad</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ver-todas">
+            <a href="#" class="boton boton-verde">ver Todas</a>
+        </div>
+
+    </main>
 
     <section>
-        <h3>Encuentras la Casa de tus Sueños</h3>
+        <h2>Encuentras la Casa de tus Sueños</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur deserunt dolore eligendi error, ex exercitationem illo iure natus nemo optio quibusdam quo repellendus sequi suscipit tempore vero, vitae voluptate!</p>
-        <a href="#">CONTACTANOS</a>
+        <a href="views/contacto.html">CONTACTANOS</a>
     </section>
 
     <section>
         <div>
-            <div>
+            <h3>Nuestro Blog</h3>
+            <article>
                 <div>
                     imagen
                 </div>
                 <div>
+                    <img src="img/blog1.jpg" alt="terraza techo">
                     <h4>Terraza en el techo de tu casa</h4>
-                    <p>fecha</p>
+                    <p>Escrito el: <em>20/10/2019</em> por: <em>Admin</em></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid earum, enim exercitationem facere fuga harum impedit iure laboriosam libero minima nulla numquam quia quis recusandae rem rerum tempora unde, voluptate?</p>
                 </div>
-            </div>
-            <div>
+            </article>
+
+            <article>
                 <div>
+                    <img src="img/blog2.jpg" alt="guía decoración">
                     <h4>Guía para la decoración de tu hogar</h4>
-                    <p>fecha</p>
+                    <p>Escrito el: <em>20/10/2019</em> por: <em>Admin</em></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi architecto assumenda culpa dignissimos dolore dolorum explicabo id ipsa natus, nostrum obcaecati odio porro provident quaerat quisquam suscipit temporibus. Placeat.</p>
                 </div>
                 <div></div>
-            </div>
+            </article>
         </div>
+    </section>
+
+    <section>
         <div>
             <h3>Testimoniales</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi assumenda debitis deserunt dolor dolorum ducimus ipsam itaque molestias mollitia, nesciunt nulla odio odit perferendis ratione reprehenderit, rerum sint! Eveniet?</p>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi assumenda debitis deserunt dolor dolorum ducimus ipsam itaque molestias mollitia, nesciunt nulla odio odit perferendis ratione reprehenderit, rerum sint! Eveniet?</blockquote>
+            <p>- Alejandro Suárez</p>
         </div>
     </section>
 
     <footer>
-        <nav>
-            <ul>
-                <li>Nosotros</li>
-                <li>Anuncios</li>
-                <li>Blog</li>
-                <li>Contacto</li>
-            </ul>
+        <nav class="navegacion">
+            <a href="views/nosotros.html">Nosotros</a>
+            <a href="views/anuncios.html">Anuncios</a>
+            <a href="views/blog.html">Blog</a>
+            <a href="views/contacto.html">Contacto</a>
         </nav>
         <div>
-            copyRights
+            Derechos reservados &copy;
         </div>
     </footer>
 </body>
