@@ -432,6 +432,11 @@ h4{
     background-color: #71b100;
 }
 
+.site-header{
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
+
 /* Header */
 .site-header.inicio{
     background-image: url("../img/header.jpg");
@@ -651,4 +656,52 @@ h4{
 
 .testimonial blockquote{
     position: relative;
+}
+
+/* footer */
+.site-footer{
+    background-color: #333333;
+    height: 8rem;
+    margin: 0;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.copyight{
+    margin : 0;
+    color: white;
+}
+
+/* Nosotros */
+
+.contenido-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+}
+
+.texto-nosotros blockquote{
+    font-size: 2.2rem;
+    margin: 0;
+    padding: 3.3rem 0 4.5rem 0;
+    font-weight: 700;
+}
+
+/* Anuncios */
+
+.contenedor-anuncios .anuncios{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 1rem;
+}
+
+.grupo-anuncio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+    padding-bottom: 1.5rem;
 }
