@@ -412,6 +412,11 @@ h4{
     display: block!important;
 }
 
+.contenido-centrado{
+    max-width: 800px;
+    text-align: justify;
+}
+
 /* Botones */
 .boton{
     color: white;
@@ -524,7 +529,9 @@ h4{
 }
 
 .iconos-caracteristicas{
+    max-width: 500px;
     list-style: none;
+    flex: 1;
     padding: 0;
     display: flex;
     justify-content: space-evenly;
@@ -704,4 +711,19 @@ h4{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 1rem;
     padding-bottom: 1.5rem;
+}
+
+
+/* Anuncio */
+
+.resumen-propiedad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Contacto */
+
+label{
+    display: block;
 }
